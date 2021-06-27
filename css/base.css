@@ -1,0 +1,127 @@
+html, body {
+	--color-bg: #81191C;
+	--color-link: #1352d1;
+	--color-link-hover: #fff;
+	--color-text:  #fff;
+	background-color: var(--color-bg);
+	/*background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);*/
+	/*background: linear-gradient(125deg, rgba(129, 25, 28, 1) 0%, rgba(9,9,121,1) 35%, rgba(204,226,231,1) 100%);*/
+	/*background: linear-gradient(125deg, rgba(129, 25, 28, 1) 0%, rgba(9,9,121,1) 35%, rgba(49,76,93,1) 100%);*/
+	/*background: linear-gradient(125deg, rgba(129, 25, 28, 1) 0%, rgba(49,76,93,1) 35%, rgba(204,226,231,1) 100%);*/
+	background: linear-gradient(125deg, rgba(129, 25, 28, 1) 0%, rgba(69,28,70,1) 35%, rgba(49,76,93,1) 100%);
+	font-family: 'Merriweather', serif;
+	/*font-family: 'PT Serif', serif;*/
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+p {
+	font-size: 20px;
+}
+
+.no-background {
+	background-color: transparent!important;
+	box-shadow: none!important;
+}
+
+.overlay-blend {
+	mix-blend-mode: overlay;
+}
+
+.main-menu {
+	z-index: 1000;
+}
+
+.series-title, .uk-card-title, h3, .link, .year-namecard {
+	font-family: 'Rock Salt', cursive;
+}
+
+.uk-button, .uk-label {
+	font-family: 'JetBrains Mono', monospace;
+}
+
+h4 {
+	/*font-family: 'Homemade Apple', cursive;*/
+	/*font-family: 'Walter Turncoat', cursive;*/
+	font-family: 'Merriweather', serif;
+	mix-blend-mode: soft-light;
+}
+
+.chinese-title {
+	/*font-family: 'Liu Jian Mao Cao', cursive;*/
+	font-family: 'Zhi Mang Xing', cursive;
+	color: black;
+	font-size: 7em;
+	opacity: 0.3;
+	margin-top: -110pt;
+	margin-left: 100pt;
+	z-index: -1;
+	mix-blend-mode: soft-light;
+	filter: blur(1px);
+
+}
+
+.author-label {
+	font-family: 'Chonburi', cursive;
+	color: white!important;
+	margin-top: -30px;
+	transform: rotate(-10deg);
+	background: transparent!important;
+}
+
+.author-label:before {
+	position: absolute;
+	/*border-top:  10px solid #81191C;*/
+	border-bottom:  15px solid #000;
+	content: '\a0';
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+}
+
+.background-blur {
+	position: absolute;
+	backdrop-filter: blur(8px);
+	background-color: rgba(129, 25, 28, 0.5);
+	height: 70px;
+	width: 100%;
+	/*top: -50px;*/
+	margin-top: -60px;
+	z-index: -1;
+}
+
+.westwind-logo {
+	opacity: 0.7;
+}
+
+.chinese-namecard, .year-namecard {
+	font-family: 'Zhi Mang Xing', cursive;
+	color: lightgray!important;
+	opacity: 0.5;
+	margin-bottom: -80px;
+	margin-right: -10px;
+	z-index: -1;
+	mix-blend-mode: multiply;
+}
+
+.year-namecard {
+	/*font-family: 'Chonburi', cursive;*/
+	font-family: 'Rock Salt', cursive;
+}
+
+.uk-card-secondary .uk-card-body .chinese-namecard {
+	opacity: 0.1;
+	margin-left: -10px;
+	mix-blend-mode: normal;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+	.background-blur {
+		-webkit-backdrop-filter: blur(8px);
+		backdrop-filter: blur(8px);
+		/*background-color: rgba(129, 25, 28, 0.3);*/
+		/*background-color: rgba(69,28,70,0.5);*/
+		background-color: rgba(0,0,0,0.3);
+	}
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Chapter 1 - Gone with the Wind | 轻错 by Dr.Solo</title>
+
+	<!-- UIkit CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/css/uikit.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/link.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/lyric.css"> -->
+
+	<!-- UIkit JS -->
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/js/uikit.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/js/uikit-icons.min.js"></script>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Chonburi&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+		.chapter-number {
+			font-family: 'JetBrains Mono', monospace;
+		}
+
+		.uk-dropcap::first-letter, .uk-dropcap>p:first-of-type::first-letter {
+			mix-blend-mode: exclusion;
+		}
+
+		:not(pre)>code {
+			font-family: 'Lato', sans-serif;
+			font-size: 20px;
+			font-weight: 700;
+			background: none!important;
+			mix-blend-mode: overlay;
+			white-space: normal;
+		}
+
+		.lyrics {
+			font-family: 'Lato', sans-serif;
+			font-size: 25px;
+			font-weight: 700;
+			line-height: 2;
+		}
+
+		.lyrics div {
+			mix-blend-mode: overlay;
+			transition: all 0.5s ease;
+		}
+
+		.lyrics .active {
+			/*font-size: 30px;*/
+			opacity: 1;
+			mix-blend-mode: hard-light;
+		}
+	</style>
+</head>
+<body>
+<div class="uk-container">
+	<div class="uk-flex uk-flex-center uk-margin uk-margin-xlarge-top uk-light uk-text-center">
+		<h1 class="series-title">Gone with the Wind</h1>
+	</div>
+	<div class="uk-flex uk-flex-center uk-grid" uk-grid>
+		<div class="uk-width-expand"></div>
+		<div class="uk-width-2-5 uk-text-center"><div class="chinese-title uk-visible@m">轻错</div></div>
+		<div class="uk-width-auto">
+			<div class="uk-tile uk-tile-secondary uk-padding-small uk-padding-remove-vertical author-label">by Dr.Solo</div>
+		</div>
+		<div class="uk-width-expand"></div>
+	</div>
+</div>
+
+<!-- Main Menu -->
+<!-- West Wind, Characters, Novel, Comic, Playlist -->
+<div class="uk-container-expand uk-margin-small-top uk-visible@m">
+	<div class="main-menu" uk-sticky="animation: uk-animation-slide-top; show-on-up: true">
+	<div class="uk-flex uk-flex-center uk-padding-small">
+		<a href="playlist.html" class="link link--carme">
+			<span>Playlist</span>
+			<svg class="link__graphic link__graphic--stroke link__graphic--scribble" width="100%" height="9" viewBox="0 0 101 9"><path d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294" pathLength="1" stroke-width="2"/></svg>
+		</a>
+
+		<a href="index.html#characters" class="link link--carme uk-margin-left">
+			<span>Characters</span>
+			<svg class="link__graphic link__graphic--stroke link__graphic--scribble" width="100%" height="9" viewBox="0 0 101 9"><path d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294" pathLength="1"/></svg>
+		</a>
+
+		<a href="index.html#novel" class="link link--carme uk-margin-left">
+			<span>Novel</span>
+			<svg class="link__graphic link__graphic--stroke link__graphic--scribble" width="100%" height="9" viewBox="0 0 101 9"><path d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294" pathLength="1" stroke-width="2.5"/></svg>
+		</a>
+
+		<a href="index.html#comic" class="link link--carme uk-margin-left">
+			<span>Comic</span>
+			<svg class="link__graphic link__graphic--stroke link__graphic--scribble" width="100%" height="9" viewBox="0 0 101 9"><path d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294" pathLength="1" stroke-width="2.5"/></svg>
+		</a>
+	</div>
+	<div class="background-blur"></div>
+	</div>
+</div>
+
+<div class="uk-container uk-margin-medium-top">
+	<div class="uk-flex uk-flex-center uk-grid overlay-blend" uk-grid>
+		<div class="uk-flex-middle uk-grid-divider uk-light" uk-grid>
+			<div>
+				<h1 class="chapter-number">Track001</h1>
+			</div>
+			<div>
+				<ul class="chapter-number uk-list uk-list-square uk-text-meta">
+					<li class=""><b>TL:</b> person</li>
+					<li class=""><b>PR:</b> anon</li>
+					<li class="">June 24, 2021</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="uk-grid" uk-grid>
+		<div class="uk-width-1-5 uk-visible@m"></div>
+		<div class="uk-width-1-1 uk-width-3-5@m">
+			<div class="uk-light">
+
+	            <p class="uk-dropcap">Horem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis.</p>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit. <i>"In voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim"</i> id est laborum</p>
+
+				<!-- Music Player -->
+				<div class="uk-card uk-card-default uk-grid-collapse uk-margin uk-border-rounded" uk-grid uk-sticky="top: 100; animation: uk-animation-slide-top; ">
+				    <div class="uk-width-auto uk-flex-last@s uk-card-media-right uk-cover-container uk-padding-small uk-text-right">
+				        <iframe width="112" height="63" src="https://www.youtube-nocookie.com/embed/yKNxeF4KMsY?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				    </div>
+				    <div class="uk-width-expand">
+				        <div class="uk-card-body uk-padding-small">
+				            <h3 class="uk-card-title">Yellow</h3>
+				            <p class="uk-text-small">Coldplay</p>
+				        </div>
+				    </div>
+				</div>
+
+				<div class="uk-card uk-card-default uk-card-body uk-border-rounded uk-light no-background">
+					<div class="lyrics uk-margin">
+						<div>If it's all right</div>
+						<div class="active">I wanna kick it with you all night, all night</div>
+						<div>Have a good time</div>
+						<div>Ain't gotta worry 'cause it's all right, it's all right</div>
+					</div>
+				</div> 
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <code>For you, I'd bleed myself dry</code> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur <code>For you, I'd bleed myself dry</code>. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. <code>Temporibus autem quibusdam et aut officiis debitis</code> aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis.</p>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+				<a class="uk-button uk-button-default uk-margin overlay-blend" href="#"><span uk-icon="chevron-left"></span> Track000</a>
+				<a class="uk-align-right uk-button uk-button-default uk-margin overlay-blend" href="#">Track002 <span uk-icon="chevron-right"></span></a>
+			</div>
+		</div>
+
+		<div class="uk-width-1-5 uk-visible@m"></div>
+	</div>
+</div>
+
+<!-- Footer -->
+<div class="uk-container uk-margin uk-light">
+	<div>
+		<hr class="uk-divider-icon">
+	</div>
+	<div class="uk-text-center">
+		<img src="img/westwind-logo.jpg" class="westwind-logo uk-blend-lighten" alt="Logo of the West Wind underground music band." width="150" uk-img>
+		<div class="uk-margin-top">West Wind <span uk-icon="icon: tiktok"></span> 2021</div>
+	</div>
+</div>
+
+<div class="uk-position-bottom-right uk-margin uk-margin-right uk-position-fixed">
+	<a href="#" class="uk-icon-button" uk-totop uk-scroll></a></div>
+</body>
+</html>
