@@ -1,17 +1,12 @@
-html, body {
+body {
 	--color-bg: #81191C;
 	--color-link: #1352d1;
 	--color-link-hover: #fff;
 	--color-text:  #fff;
+
 	background-color: var(--color-bg);
-	/*background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);*/
-	/*background: linear-gradient(125deg, rgba(129, 25, 28, 1) 0%, rgba(9,9,121,1) 35%, rgba(204,226,231,1) 100%);*/
-	/*background: linear-gradient(125deg, rgba(129, 25, 28, 1) 0%, rgba(9,9,121,1) 35%, rgba(49,76,93,1) 100%);*/
-	/*background: linear-gradient(125deg, rgba(129, 25, 28, 1) 0%, rgba(49,76,93,1) 35%, rgba(204,226,231,1) 100%);*/
-	/*background: linear-gradient(125deg, rgba(129, 25, 28, 1) 0%, rgba(69,28,70,1) 35%, rgba(49,76,93,1) 100%);*/
 	background: linear-gradient(125deg, rgba(129, 25, 28, 1), rgba(69,28,70,1), rgba(49,76,93,1), rgba(89,115,129,1));
 	font-family: 'Merriweather', serif;
-	/*font-family: 'PT Serif', serif;*/
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 
@@ -148,4 +143,40 @@ h4 {
 		/*background-color: rgba(69,28,70,0.5);*/
 		background-color: rgba(0,0,0,0.3);
 	}
+}
+
+/* Novel Chapter */
+.chapter-number {
+	font-family: 'JetBrains Mono', monospace;
+}
+
+.uk-dropcap::first-letter, .uk-dropcap>p:first-of-type::first-letter {
+	mix-blend-mode: exclusion;
+}
+
+:not(pre)>code {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	background: none!important;
+	mix-blend-mode: overlay;
+	white-space: normal;
+}
+
+.lyrics {
+	font-family: 'Lato', sans-serif;
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 2;
+}
+
+.lyrics div {
+	mix-blend-mode: overlay;
+	transition: all 0.5s ease;
+}
+
+.lyrics .active {
+	/*font-size: 30px;*/
+	opacity: 1;
+	mix-blend-mode: hard-light;
 }
