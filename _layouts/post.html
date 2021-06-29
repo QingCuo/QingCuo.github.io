@@ -2,11 +2,13 @@
 layout: default
 ---
 
+{% assign chapter_number = page.title | remove: 'Chapter ' %}
+
 <div class="uk-container uk-margin-medium-top">
   <div class="uk-flex uk-flex-center uk-grid overlay-blend">
     <div class="uk-flex-middle uk-grid-divider uk-light" uk-grid>
       <div class="uk-text-right">
-        <h1 class="chapter-number">{{ page.title }}</h1>
+        <h1 class="chapter-number">TRACK{{ chapter_number | prepend: '000' | slice: -3, 3 }}</h1>
         <p class="chapter-number uk-text-meta">{% include read_time.html content=page.content %}</p>
       </div>
       <div>
@@ -22,7 +24,7 @@ layout: default
   <div class="uk-grid" uk-grid>
     <div class="uk-width-1-5 uk-visible@m"></div>
     <div class="uk-width-1-1 uk-width-3-5@m">
-      <div class="uk-light">
+      <div class="uk-light novel-text">
 
         {{ content }}
 
