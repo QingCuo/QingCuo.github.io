@@ -9,10 +9,10 @@ layout: default
     <div class="uk-flex-middle uk-grid-divider uk-light" uk-grid>
       <div class="uk-text-right">
         <h1 class="chapter-number">TRACK{{ chapter_number | prepend: '000' | slice: -3, 3 }}</h1>
-        <p class="chapter-number uk-text-meta">{% include read_time.html content=page.content %}</p>
+        <div class="chapter-info uk-text-meta">{% include read_time.html content=page.content %}</div>
       </div>
       <div>
-        <ul class="chapter-number uk-list uk-list-square uk-text-meta">
+        <ul class="chapter-info uk-list uk-list-square uk-text-meta">
           <li class=""><b>TL:</b> {{ page.author }}</li>
           <li class=""><b>PR:</b> {{ page.editor }}</li>
           <li class=""><b>{{ page.date | date: '%B %d, %Y' }}</b></li>

@@ -148,6 +148,11 @@ h4 {
 /* Novel Chapter */
 .chapter-number {
 	font-family: 'JetBrains Mono', monospace;
+	margin-bottom: 10px!important;
+}
+
+.chapter-info {
+	font-family: 'JetBrains Mono', monospace;
 }
 
 .uk-dropcap::first-letter, .uk-dropcap>p:first-of-type::first-letter {

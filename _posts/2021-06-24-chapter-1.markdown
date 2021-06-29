@@ -7,7 +7,7 @@ author: pudding
 editor: mars
 category: Gone-with-the-Wind
 tag: novel
-comic: 1
+comic: 1,2
 ---
 Holding onto two bags of garbage, Fu Cuo walked out the door towards the dumpster that was located at the end of the alleyway. With every step he took, the light from outside spilled into the room as if it were piercing through a sluice gate along with the constant chattering and bustling coming from the crowd from the music academy sitting across the street through the open door.
 {: .uk-dropcap}
