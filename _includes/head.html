@@ -8,8 +8,9 @@
 	<!-- Meta Descriptions -->
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://qingcuo.github.io/">
-	<meta property="og:title" content="Gone with the Wind | 轻错 by Dr.Solo">
+	<meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}Gone with the Wind | 轻错 by Dr.Solo{% endif %}">
 	<meta property="og:description" content="A love story with misunderstandings and betrayals, and a lot of music.">
+	<meta property="og:site_name" content="Gone with the Wind">
 	<meta property="og:image" content="https://qingcuo.github.io/img/banner.jpg">
 	<meta name="theme-color" content="#314C5D">
 
