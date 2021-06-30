@@ -1,0 +1,128 @@
+title: Music Playlists
+description: This list includes the music tracks that have been referenced and featured in the story in chronological order
+songs:
+  - title: Closer
+    artist: The Chainsmokers
+    year: 2016
+    novel: 3
+    video: PT2_F-1esPk
+
+  - title: Yellow
+    artist: Coldplay
+    year: 2000
+    novel: "4,31"
+    video: yKNxeF4KMsY
+
+  - title: Everglow
+    artist: Coldplay
+    year: 2015
+    novel: 33
+    video: xn_1hFdE-5g
+
+  - title: Stand by Me
+    artist: Oasis
+    year: 1997
+    novel: "36,99"
+    video: N9kdHXrJYF8
+
+  - title: Don't Go Away
+    artist: Oasis
+    year: 1997
+    novel: "42,99"
+    video: FU6yzzESX8Y
+
+  - title: Bitter Sweet Symphony
+    artist: The Verve
+    year: 1997
+    novel: "46,74"
+    video: 1lyu1KKwC74
+
+  - title: Stairway to Heaven
+    artist: Led Zeppelin
+    year: 1971
+    novel: 50
+    video: QkF3oxziUI4
+
+  - title: Everything Will Flow
+    artist: Suede
+    year: 1999
+    novel: 50
+    video: iJKPP13Tqi4
+
+  - title: It's My Life
+    artist: Bon Jovi
+    year: 2000
+    novel: 51
+    video: vx2u5uUu3DE
+
+  - title: Viva la Vida
+    artist: Coldplay
+    year: 2008
+    novel: 51
+    video: dvgZkm1xWPE
+
+  - title: In the End
+    artist: LINKIN PARK
+    year: 2000
+    novel: 53
+    video: eVTXPUF4Oz4
+
+  - title: The Phoenix
+    artist: Fall Out Boy
+    year: 2013
+    novel: 53
+    video: 5hDZbroaQDc
+
+  - title: The Scientist
+    artist: Coldplay
+    year: 2002
+    novel: 71
+    video: RB-RcX5DS5A
+
+  - title: Come Home
+    artist: OneRepublic
+    year: 2007
+    novel: 74
+    video: qxW0cPo7F_o
+
+  - title: Fix You
+    artist: Coldplay
+    year: 2009
+    novel: 76
+    video: k4V3Mo61fJM
+
+  - title: Wake Me Up When September Ends
+    artist: Green Day
+    year: 2004
+    novel: 80
+    video: NU9JoFKlaZ0
+
+  - title: Stop Crying Your Heart Out
+    artist: Oasis
+    year: 2002
+    novel: 81
+    video: 6QyVil0dwhk
+
+  - title: Creep
+    artist: Radiohead
+    year: 1992
+    novel: 88
+    video: XFkzRNyygfk
+
+  - title: Champagne Supernova
+    artist: Oasis
+    year: 1995
+    novel: "88,99"
+    video: tI-5uv4wryI
+
+  - title: Yesterday
+    artist: The Beatles
+    year: 1965
+    novel: 96
+    video: jo505ZyaCbA
+
+  - title: Wonderwall
+    artist: Oasis
+    year: 1995
+    novel: 99
+    video: 6hzrDeceEKc
