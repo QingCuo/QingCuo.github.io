@@ -67,10 +67,8 @@ a:hover {
 }
 
 h4 {
-	/*font-family: 'Homemade Apple', cursive;*/
-	/*font-family: 'Walter Turncoat', cursive;*/
 	font-family: 'Merriweather', serif;
-	mix-blend-mode: soft-light;
+	mix-blend-mode: overlay;
 }
 
 .chinese-title {
@@ -79,12 +77,13 @@ h4 {
 	color: black;
 	font-size: 7em;
 	opacity: 0.3;
-	margin-top: -110pt;
-	margin-left: 100pt;
+	margin-top: -135pt;
+	margin-left: 60%;
+	line-height: 1.1;
 	z-index: -1;
 	mix-blend-mode: soft-light;
 	filter: blur(1px);
-	transition: filter 0.3s ease;
+	transition: filter 0.2s ease-in;
 }
 
 .chinese-title:hover {
@@ -98,7 +97,7 @@ h4 {
 .author-label {
 	font-family: 'Chonburi', cursive;
 	color: white!important;
-	margin-top: -30px;
+	margin-top: -20px;
 	transform: rotate(-10deg);
 	background: transparent!important;
 }
