@@ -15,9 +15,24 @@ Fu Cuo stood at the end of the alleyway, glancing swiftly towards the direction 
 
 Fu Cuo was the earliest to arrive at the bar although the bar had yet to start operating at that time of the day. His role at the bar was rather complicated. You could say that he’s one of the investors, but he’s usually busy buzzing around the bar serving customers and cleaning up. He could be considered as an employee, but he has to busk at night. You could also say that he’s the owner of the bar, but the owner is actually someone else instead. 
 
+<!-- Music Player -->
+<div class="music-player" >
+    <div class="uk-card uk-card-default uk-link-toggle uk-grid-collapse uk-margin uk-border-rounded" uk-grid uk-sticky="top: 100; animation: uk-animation-slide-top; " onclick="playPause()">
+        <div class="uk-width-auto uk-flex-last@s uk-card-media-right uk-cover-container uk-padding-small uk-text-right">
+            <div id="youtube-player"></div>
+        </div>
+        <div class="uk-width-expand">
+            <div class="uk-card-body uk-padding-small">
+                <h3 class="uk-card-title uk-link-heading uk-dark">Yellow</h3>
+                <p class="player-artist uk-text-small">Coldplay</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 As he was wiping the bar counter, the door opened and the sound of high heels clacking against the wooden floor resonated throughout the empty bar. With one hand propped on the counter, Fu Cuo lifted his head to see its owner, Yao Ke, place a bottle of red wine on the bar counter. *“My goodness, what are you keeping yourself busy for? Let’s go, accompany me to Sui Qingchi’s autograph session!”* 
 
-Fu Cuo retracted his arm from Yao Ke’s grip and turned down her offer, though something did pique his curiosity. *“Considering that his popularity is already through the roof, why does he still bother holding an autograph session at a school?”* He asked while carrying on with wiping the counter. 
+Fu Cuo retracted his arm from Yao Ke’s grip and turned down her offer, though something did pique his curiosity. `Look at the stars`{: onclick="playVideoAt(35)"} *“Considering that his popularity is already through the roof, why does he still bother holding an autograph session at a school?”* He asked while carrying on with wiping the counter. `For you, I'd bleed myself dry`{: onclick="playVideoAt(187)"}
 
 ---
 {: .uk-blend-overlay .uk-divider-icon}
@@ -159,3 +174,32 @@ Fu Cuo retracted his arm from Yao Ke’s grip and turned down her offer, though 
         <span>3</span></div> <div>List item 4 <span class="uk-margin-left uk-text-meta">31324</span></div></div>
     </li>
 </ul>
+
+<script type="text/javascript">
+    var tag = document.createElement('script');
+    tag.src = "http://www.youtube.com/player_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+    var player;
+    function onYouTubePlayerAPIReady() {
+        player = new YT.Player('youtube-player', {
+            height: '63',
+            width: '112',
+            videoId: 'yKNxeF4KMsY'
+        });
+    }
+
+    function playVideoAt(timestamp) {
+        // musicPlayer = document.getElementById("youtube-player");
+        player.seekTo(timestamp, true);
+        // player.playVideo();
+    }
+
+    function playPause() {
+        if (player.getPlayerState() == 1) {
+            player.pauseVideo();
+        } else {
+            player.playVideo();
+        }
+    }
+</script>

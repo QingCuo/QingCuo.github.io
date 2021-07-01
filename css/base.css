@@ -288,6 +288,16 @@ h4 {
 	transform:  scaleY(-1);
 }
 
+.player-artist {
+	color: #666;
+	margin-top: -10px;
+}
+
+.novel-text .uk-link-heading a:hover, .novel-text .uk-link-toggle:focus .uk-link-heading, .novel-text .uk-link-toggle:hover .uk-link-heading, .novel-text a.uk-link-heading:hover {
+	color: #1e87f0!important;
+	text-decoration: none;
+}
+
 /* Original Lyrics */
 .original-title {
 	/*font-family: 'Lato', sans-serif;*/
