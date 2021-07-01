@@ -1,0 +1,56 @@
+---
+layout: default
+title: Original Songs from Gone with the Wind by Dr.Solo
+---
+
+<div class="uk-container uk-container-small uk-margin-medium-top">
+	<div class="uk-flex uk-flex-center uk-grid" uk-grid>
+		<div>
+			<div class="uk-card uk-card-default uk-card-body uk-box-shadow-medium">
+				<h3 class="uk-card-title">Original Musics</h3>
+	            <p><em>Gone with the Wind</em> features characters composing and performing fictional songs in the series. This page lists the original music tracks and their lyrics (if available) that have been featured in the story in order of appearance. </p>
+	            
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Playlist -->
+<div class="uk-container uk-margin-large uk-text-center">
+	<div class="uk-child-width-auto uk-child-width-auto@m uk-flex uk-flex-center" uk-grid="masonry: true">
+		
+		{% for song in site.originals %}
+		{% assign filename = song.relative_path | replace: song.collection, '' | replace: '/', ''  | replace: '_', '' | replace: '.markdown', '' %}
+
+		<div>
+			<a class="uk-card uk-card-default uk-card-body uk-border-rounded uk-padding-small uk-link-toggle" href="#{{ filename }}" uk-scroll>
+	            <h3 class="uk-card-title uk-text-left"><span class="uk-link-heading">{{ song.title }}</span></h3>
+	            <p class="uk-text-meta uk-text-left">{{ song.chinese }} <em class="uk-float-right uk-margin-small-left">Ch.{{ song.novel }}</em></p>
+			</a>
+		</div>
+
+		{% endfor %}
+
+	</div>
+</div>
+
+<!-- Lyrics -->
+<div class="uk-container">
+	{% for song in site.originals %}
+	{% assign filename = song.relative_path | replace: song.collection, '' | replace: '/', ''  | replace: '_', '' | replace: '.markdown', '' %}
+
+	<hr id="{{ filename }}" class="uk-divider-icon uk-blend-overlay">
+	
+	<div class="uk-container uk-container-small uk-light uk-margin-large-top">
+		<h3 class="original-title">{{ song.title }}</h3>
+		<div class="uk-text-lead original-chinese uk-blend-overlay">{{ song.chinese }}</div>
+
+		<div class="uk-margin-small uk-blend-overlay"><span uk-icon="icon: more; ratio: 2"></span></div>
+
+		<div class="original-lyric">{{ song.content }}</div>
+		<div class="original-credits uk-margin-large-top"><b>Music:</b> {{ song.composer }}, <b>Lyrics:</b> {{ song.lyricist }}</div>
+	</div>
+
+	{% endfor %}
+</div>
