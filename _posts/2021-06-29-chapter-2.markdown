@@ -15,9 +15,15 @@ Fu Cuo stood at the end of the alleyway, glancing swiftly towards the direction 
 
 Fu Cuo was the earliest to arrive at the bar although the bar had yet to start operating at that time of the day. His role at the bar was rather complicated. You could say that he’s one of the investors, but he’s usually busy buzzing around the bar serving customers and cleaning up. He could be considered as an employee, but he has to busk at night. You could also say that he’s the owner of the bar, but the owner is actually someone else instead. 
 
+As he was wiping the bar counter, the door opened and the sound of high heels clacking against the wooden floor resonated throughout the empty bar. With one hand propped on the counter, Fu Cuo lifted his head to see its owner, Yao Ke, place a bottle of red wine on the bar counter. *“My goodness, what are you keeping yourself busy for? Let’s go, accompany me to Sui Qingchi’s autograph session!”* 
+
+Fu Cuo retracted his arm from Yao Ke’s grip and turned down her offer, though something did pique his curiosity.  *“Considering that his popularity is already through the roof, why does he still bother holding an autograph session at a school?”* He asked while carrying on with wiping the counter. 
+
+<div class="uk-text-center uk-margin uk-blend-overlay"><span uk-icon="icon: more; ratio: 2"></span></div>
+
 <!-- Music Player -->
 <div class="music-player" >
-    <div class="uk-card uk-card-default uk-link-toggle uk-grid-collapse uk-margin uk-border-rounded" uk-grid uk-sticky="top: 100; animation: uk-animation-slide-top; " onclick="playPause()">
+    <div class="uk-card uk-card-default uk-link-toggle uk-grid-collapse uk-margin uk-border-rounded" uk-grid uk-sticky="top: 150; offset: 10; animation: uk-animation-slide-top; " onclick="playPause()">
         <div class="uk-width-auto uk-flex-last@s uk-card-media-right uk-cover-container uk-padding-small uk-text-right">
             <div id="youtube-player"></div>
         </div>
@@ -28,11 +34,24 @@ Fu Cuo was the earliest to arrive at the bar although the bar had yet to start o
             </div>
         </div>
     </div>
+    <div class="uk-text-meta uk-blend-overlay uk-text-center">Tap to play and pause the music video</div>
 </div>
 
-As he was wiping the bar counter, the door opened and the sound of high heels clacking against the wooden floor resonated throughout the empty bar. With one hand propped on the counter, Fu Cuo lifted his head to see its owner, Yao Ke, place a bottle of red wine on the bar counter. *“My goodness, what are you keeping yourself busy for? Let’s go, accompany me to Sui Qingchi’s autograph session!”* 
+The prelude to `Yellow`{: onclick="playPause()"} is neither long, nor short, but everyone's hearts are hung up in the air during these few bars. Looking back to this day, it might only be a boring playoff, but Fu Cuo belived everyone will always remember the winning spirit that was aroused at the time, including Sui Qingchi many years after. 
 
-Fu Cuo retracted his arm from Yao Ke’s grip and turned down her offer, though something did pique his curiosity. `Look at the stars`{: onclick="playVideoAt(35)"} *“Considering that his popularity is already through the roof, why does he still bother holding an autograph session at a school?”* He asked while carrying on with wiping the counter. `For you, I'd bleed myself dry`{: onclick="playVideoAt(187)"}
+The less-than-18 future King of Music is standing in front of them right now, with only a simple dark grey tracksuit on, the charming teenager has his back faced towards the endless flowing croud, heads down and feet on the drums, he brought the microphone to his lips and sang the first line:
+{: .blur-text}
+
+> `Look at the stars...`{: onclick="playVideoAt(35)"}
+
+The opening line managed to pierce Fu Cuo's heart.
+
+It was a completely different rendition from the original, the voice was like a lark that took off suddenly, effortlessly cutting through layers of noise in the neighborhood.
+{: .blur-text}
+
+When he sang `Look how they shine for you`{: onclick="playVideoAt(38)"}, Sui Qingchi lifted his head, one hand still deep in pocket, and faced his band.
+
+The chorus of `Yellow`{: onclick="playPause()"} was so heartfelt that Sui finally put his hands around the mic. Fu felt that his ears are burning as he reached `Your skin oh your skin and bones, turn into something beautiful`{: onclick="playVideoAt(173)"}, because Sui is looking straight at him, his `Do you know`{: onclick="playVideoAt(185)"} is sung to him, Fu dare not to look at his eyes, but the heart still thumped hopelessly when he heard `For you I'd bleed myself dry`{: onclick="playVideoAt(187)"}
 
 ---
 {: .uk-blend-overlay .uk-divider-icon}
