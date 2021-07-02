@@ -325,7 +325,8 @@ h4 {
 	font-weight: 700;
 	font-size: 28px;
 	padding: 0;
-	mix-blend-mode: overlay;
+	opacity: 0.7;
+	/*mix-blend-mode: overlay;*/
 }
 
 .original-lyric blockquote blockquote p {
@@ -334,5 +335,6 @@ h4 {
 	margin-top: -20px;
 	margin-bottom: -20px;
 	mix-blend-mode: overlay;
-	opacity: 0.3;
+	/*opacity: 0.3;*/
+	opacity: 0.6;
 }
